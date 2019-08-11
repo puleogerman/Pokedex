@@ -1,24 +1,9 @@
-# README
+# Pokéhack
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+El enunciado del proyecto Pokéhack puedes encontrarlo en el siguiente link:
 
-Things you may want to cover:
+* [Enunciado](https://docs.google.com/document/d/1MVcWWsZZhNnJX_qp5a9NickDraxr_PjrQM6U-J919G4/edit?usp=sharing)
 
-* Ruby version
+* Haz fork del proyecto y un merge request antes de la hora pautada para realizar la entrega
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* **Happy coding**
