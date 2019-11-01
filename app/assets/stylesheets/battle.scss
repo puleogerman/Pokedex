@@ -1,0 +1,32 @@
+// Place all the styles related to the Battle controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/\\
+
+.battlescreen {
+    min-height: 100vh;
+    background-color: #415BA6;
+    display: flex;
+    flex-direction: column;
+
+    .screen__top {
+        height: 55vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .battleground {
+        min-height: 65vh;
+        width: 100%;
+        background-color: white;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+

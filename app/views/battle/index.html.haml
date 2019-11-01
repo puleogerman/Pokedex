@@ -1,0 +1,19 @@
+.battlescreen
+  .screen__top
+    %a.back__sign
+    %h1.title3 Batalla
+
+  .battleground#arena
+    .arena__fight#fighters
+      #fightera
+      #fighterb
+      
+    .arena__move#moves
+      %button.set#fight Pelear
+      %button.set#roll Rodar
+      %button.set#jump Saltar
+      %button.set#run Huir
+
+
+%script 
+  = "getPokea(#{params[:id]})" 

@@ -1,0 +1,154 @@
+// Place all the styles related to the Pokemons controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.pokemon {
+    width: 256px;
+    height: 160px;
+    border-radius: 20px;
+    position: relative;
+    margin: 40px;
+
+    background-image: url(minibola.png);
+    background-size: 260px 165px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.pokemon img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 20px;
+    bottom: 16px;
+}
+
+.id {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+}
+
+.name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    color: white;
+    text-transform: capitalize;
+
+    position: absolute;
+    left: 20px;
+    top: 44px;
+}
+
+.type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+    text-transform: capitalize;
+
+    position: absolute;
+    left: 20px;
+    top: 72px;
+
+    background: rgba(254, 254, 254, 0.2);
+    border-radius: 25px;
+    padding: 2px 27px;
+}
+
+.type2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+    text-transform: capitalize;
+
+    position: absolute;
+    left: 20px;
+    top: 110px;
+
+    background: rgba(254, 254, 254, 0.2);
+    border-radius: 25px;
+    padding: 2px 27px; 
+}
+
+.type-normal {
+    background-color: #DAD7C9;  
+}
+
+.type-water {
+    background-color: #84C2FF; 
+}
+
+.type-fire {
+    background-color: #FF8F7B;  
+}
+
+.type-electric {
+    background-color: #FFE55B;  
+}
+
+.type-grass {
+    background-color: #6BA497;  
+}
+
+.type-ice {
+    background-color: #AACEF1;  
+}
+
+.type-fighting {
+    background-color: #A99A89;  
+}
+
+.type-poison {
+    background-color: #7B30A9;  
+}
+
+.type-ground {
+    background-color: #C69C05;  
+}
+
+.type-flying {
+    background-color: #C2D9DE;  
+}
+
+.type-psychic {
+    background-color: #F44987;  
+}
+
+.type-bug {
+    background-color: #CCD77B;  
+}
+
+.type-rock {
+    background-color: #898F71; 
+}
+
+.type-ghost {
+    background-color: #7465CF;  
+}
+
+.type-dragon {
+    background-color: #C882F3;  
+}
+
+.type-dark {
+    background-color: #4F4A46;  
+}
+
+.type-steel {
+    background-color: #9FACA9;  
+}
+
+.type-fairy {
+    background-color: #EFAEFF;  
+}

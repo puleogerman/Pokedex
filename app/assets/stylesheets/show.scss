@@ -1,0 +1,129 @@
+.container__show {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container__show__top {
+    height: 57vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.container__show__bottom {
+    min-height: 68vh;
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom__button {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#babutton {
+    padding: 15px 68px;
+    margin-top: 85px;
+    margin-bottom: 50px;
+    z-index: 2;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    background: #415BA6;
+    border-radius: 30px;
+}
+
+#babutton:hover {
+    cursor: pointer
+}
+
+#backbutton {
+    position: absolute;
+    color: white;
+    left: 60px;
+    top: 50px;
+    width: 30px;
+    height: 30px;
+    background-image: url(Back.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+
+}
+
+.bottom__content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.bottom__content__list {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #636262;
+}
+
+.bottom__content__info {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    margin-top: 3%;
+    #info__stats {
+        height: 100%;
+        width: 30%;
+        margin-left: 4%;
+        display:none;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 23px;
+
+        color: #636262;
+    }
+    #info__about {
+        height: 100%;
+        width: 70%;
+        display: none;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 23px;
+        color: #231F20;
+    }
+}
+
+.infobuttons:hover {
+    cursor: pointer;
+}
+
+.infobuttons:active {
+    color: #415BA6;
+    padding-bottom: 4px;
+    border-bottom:1px solid #415BA6;
+    
+}

@@ -1,0 +1,26 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Proyecto345Pokehack
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    .container
+      %header.header
+        .header__logo
+          = image_tag 'logo.png', alt: '', class: 'header__logo__image'
+        .header__content
+          %ul.buttons
+
+            -# %input.buttons__item__search{:placeholder => "Buscar", :type => "search", :value => ""}/
+            %li.buttons__item#title1 Pokemones
+            %li.buttons__item Favoritos
+            %li.buttons__item Lorem Ipsum
+        .header__ball
+          = image_tag 'Pokebola.png', alt: '', class: 'header__pokeball'
+          
+      .main
+        = yield

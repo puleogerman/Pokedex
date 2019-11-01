@@ -1,0 +1,28 @@
+.main {
+    width: 75%;
+    min-height: 82vh;
+    // background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.title2 {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    h1 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+    }
+}
+
+.main__content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}

@@ -1,0 +1,25 @@
+.container__show#shower{:data => {:current_page => "pokemon_show"} }
+  .container__show__top#top__shower
+    %a#backbutton{:href => "./pokemons"}
+
+  .container__show__bottom
+    .bottom__button
+      %a#babutton Batalla
+    .bottom__content
+      %ul.bottom__content__list
+        %li.infobuttons{:onclick => "showAbout()"} About
+        %li.infobuttons Base States
+        %li.infobuttons Moves
+    .bottom__content__info#aboutinfo
+      #info__stats 
+        %p Height
+        %p Weight
+        %p Abilities
+      #info__about
+
+  %script 
+    = "getPokemon(#{params[:id]})" 
+      
+    
+
+
