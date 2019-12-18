@@ -1,7 +1,7 @@
 // let page = 1;
 async function getPokemons() {
     const pokemons = [];
-    for (let i = 1; i <= 51; i++) {
+    for (let i = 1; i <= 87; i++) {
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${i}`);
         const body = await response.json();
         pokemons.push(body);
@@ -25,9 +25,6 @@ async function getPokemons() {
         const image = document.createElement('img');
         image.classList.add('image');
         image.src = `https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png`
-        // const miniball = document.createElement('img');
-        // miniball.classList.add('miniball');
-        // miniball.src = ./images/Pokebola.png
         const type = document.createElement('div');
         for (const types of pokemon.types) {
             if (types.slot == 1) {
@@ -45,8 +42,6 @@ async function getPokemons() {
             }
         }
         
-        
-        // card.appendChild(pokemonId);
         card.appendChild(id);
         card.appendChild(name);
         card.appendChild(type);
